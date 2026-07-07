@@ -20,112 +20,88 @@ This project is an interactive Power BI dashboard developed using the Microsoft 
 - DAX (Data Analysis Expressions)
 - Data Modeling
 - Microsoft Excel
-
----
-# 📂 Dashboard Pages
-
-## 📄 Page 1 – Sales Overview Dashboard
-### KPIs
-- Total Orders/Total Sales/Production Cost/Profit/Top Region Sales
-
-### Advanced Features
-### ✅ Q&A Visual
-Implemented Microsoft's AI-powered Q&A visual to allow users to ask natural language questions directly from the dashboard.
-Example Questions:
-- Top Sales Year by Profit
-- Top Product Subcategory by Total Cost
-- Top Sales Years
-- Top Product Unit Price
-
-### ✅ Slicers 
-Used interactive slicers for:
-- Sales Territory Region
-- Year
-
-### ✅ Filters
-Applied report-level and visual-level filters for dynamic data analysis.
-
-### ✅ Cross Filtering & Cross Highlighting
-Selecting any visual automatically filters and highlights related visuals across the report.
 ---
 
-# 📄 Page 2 – Time Series Analysis
+# 🛠️ Tools & Technologies
 
-### KPIs
+- Microsoft Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Microsoft Excel
+---
 
-- YoY Growth % / Financial Month / Profit / Peak Sales Month / Total Sales
-- 
-### Advanced Features
+# 📊 Dashboard Pages
 
-### ✅ Drill Down & Drill Up
-Implemented hierarchy navigation.
+## 📄 1. Sales Overview Dashboard
 
-Hierarchy Used:
+Provides a high-level overview of business performance using interactive KPIs and visualizations.
 
-Year
-↓
-Quarter
-↓
-Month
+### Charts Used
+- KPI Cards, Clustered Bar Chart, Pie Chart, Filled Map, Line Chart& Column Chart
 
-Users can drill into detailed sales information and drill back to summary level.
-
-### ✅ Bookmarks
-
-Created interactive Bookmarks for:
-
-- Show Season Wise Sales Trend
-- Hide Season Wise Sales Trend
-- Show Production Cost Trend
-- Hide Production Cost Trend
-
-### ✅ Buttons
-
-Interactive buttons connected with bookmarks to show/hide visuals.
-
-### ✅ Slicers
-
-Used slicers for:
-
-- Year
-- Quarter
-
-### ✅ Decomposition Tree
-
-Implemented decomposition tree for exploring yearly, quarterly and monthly sales trends.
+### Features Implemented
+- **Q&A Visual** – Allows users to ask business questions in natural language (e.g., *Top sales year by profit*).
+- **Slicers** – Filter data by Sales Territory Region and Year.
+- **Filters** – Applied report-level and visual-level filters.
+- **Cross Filtering & Cross Highlighting** – Selecting one visual automatically updates all related visuals.
 
 ---
 
-# 📄 Page 3 – Customer Analysis
+## 📄 2. Time Series Analysis
+Analyzes sales trends across different time periods.
 
-### KPIs
+### Charts Used
+- Column Chart, Area Chart, Line Chart& Decomposition Tree
 
-- Repeat Customers / Customer Count / Total Orders / Retention Rate
-
-### Advanced Features
-
-### ✅ Cross Filtering
-
-Every chart interacts dynamically with other visuals.
+### Features Implemented
+- **Drill Down & Drill Up** – Navigate from Year → Quarter → Month for detailed trend analysis.
+- **Bookmarks** – Used to switch between Production Cost Trend and Seasonal Sales Trend.
+- **Buttons** – Created interactive navigation using bookmarks.
+- **Decomposition Tree** – Explores sales data at multiple hierarchical levels.
+- **Slicers** – Filter analysis dynamically by Year and Quarter.
 
 ---
+## 📄 3. Customer Analysis
+Analyzes customer demographics, purchasing behavior, and retention.
 
-# 📄 Page 4 – Product & Regional Analysis
+### Charts Used
+- Filled Map, Combo Chart, Line Chart& Clustered Bar Chart
 
-### KPIs
-- Top Product Profit / Total Sales / Profit / Profit Margin
+### Features Implemented
+- **Gender Slicer** – Analyze customer data based on gender.
+- **Cross Filtering** – Selecting any visual updates the entire page.
+- **Customer Insights** – Identify repeat customers, retention rate, and top customers.
 
-### Advanced Features
+---
+## 📄 4. Product & Regional Analysis
+Provides insights into product performance and regional sales.
 
-### ✅ Tooltip
-Created a custom Tooltip page
-When users hover over the Sales Territory Map, an additional Profit by Country tooltip appears.
+### Charts Used
+- Clustered Bar Chart, Filled Map& Column Chart
 
-### ✅ Sales Territory Slicer
-Users can analyze data by region.
+### Features Implemented
+- **Custom Tooltip** – Displays additional product profit information when hovering over the map.
+- **Sales Territory Slicer** – Analyze sales by region.
+- **Cross Highlighting** – Compare products and regions interactively.
 
-### ✅ Cross Highlighting
-Selecting any product or region dynamically updates the remaining visuals.
+---
+# 🚀 Advanced Power BI Features Used
+
+- ✅ Power Query for Data Cleaning & Transformation
+- ✅ Data Modeling (Star Schema)
+- ✅ DAX Measures & Calculated Columns
+- ✅ KPI Cards
+- ✅ Slicers & Filters
+- ✅ Q&A Visual
+- ✅ Drill Down & Drill Up
+- ✅ Bookmarks
+- ✅ Navigation Buttons
+- ✅ Custom Tooltip
+- ✅ Decomposition Tree
+- ✅ Filled Map
+- ✅ Cross Filtering & Cross Highlighting
+- ✅ Interactive Dashboard Navigation
 ---
 # 📊 Data Modeling
 
@@ -137,9 +113,7 @@ Selecting any product or region dynamically updates the remaining visuals.
 ---
 
 # 🧮 DAX Measures Used
-
 Examples include:
-
 - Total Sales
 - Total Profit
 - Total Orders
@@ -151,7 +125,6 @@ Examples include:
 - Peak Sales Month
 
 ---
-
 # 📈 Key Business Insights
 - Identified the highest sales year.
 - Compared production cost and profit trends.
@@ -161,9 +134,7 @@ Examples include:
 - Identified repeat customers and retention rate.
 - Compared product profitability across categories.
 - Enabled users to explore data through AI-powered Q&A, bookmarks, drill-down analysis, tooltips, slicers, and interactive filters.
----
-Aspiring Data Analyst
-### Skills
-Power BI • SQL • Excel • Python • Data Analysis • Data Visualization
 
+---
+**Aspiring Data Analyst | Power BI | SQL | Excel | Python**
 ⭐ If you found this project useful, don't forget to Star this repository.
