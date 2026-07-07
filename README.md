@@ -1,11 +1,9 @@
 # 🚴 Adventure Works Sales Dashboard | Power BI
 
 ## 📌 Project Overview
-
 This project is an interactive Power BI dashboard developed using the Microsoft Adventure Works dataset. The dashboard provides comprehensive insights into sales performance, customer behavior, product performance, and regional analysis through interactive reports and advanced Power BI features.
 ---
 # 🎯 Business Objectives
-
 - Monitor overall sales performance.
 - Analyze production cost and profitability.
 - Track customer purchasing behavior.
@@ -14,7 +12,6 @@ This project is an interactive Power BI dashboard developed using the Microsoft 
 - Enable users to interact with the dashboard using advanced Power BI features.
 ---
 # 🛠 Tools & Technologies
-
 - Microsoft Power BI Desktop
 - Power Query
 - DAX (Data Analysis Expressions)
@@ -23,7 +20,6 @@ This project is an interactive Power BI dashboard developed using the Microsoft 
 ---
 
 # 🛠️ Tools & Technologies
-
 - Microsoft Power BI Desktop
 - Power Query
 - DAX (Data Analysis Expressions)
@@ -34,7 +30,6 @@ This project is an interactive Power BI dashboard developed using the Microsoft 
 # 📊 Dashboard Pages
 
 ## 📄 1. Sales Overview Dashboard
-
 Provides a high-level overview of business performance using interactive KPIs and visualizations.
 
 ### Charts Used
@@ -47,7 +42,6 @@ Provides a high-level overview of business performance using interactive KPIs an
 - **Cross Filtering & Cross Highlighting** – Selecting one visual automatically updates all related visuals.
 
 ---
-
 ## 📄 2. Time Series Analysis
 Analyzes sales trends across different time periods.
 
@@ -137,4 +131,5 @@ Examples include:
 
 ---
 **Aspiring Data Analyst | Power BI | SQL | Excel | Python**
+
 ⭐ If you found this project useful, don't forget to Star this repository.
