@@ -19,14 +19,6 @@ This project is an interactive Power BI dashboard developed using the Microsoft 
 - Microsoft Excel
 ---
 
-# 🛠️ Tools & Technologies
-- Microsoft Power BI Desktop
-- Power Query
-- DAX (Data Analysis Expressions)
-- Data Modeling
-- Microsoft Excel
----
-
 # 📊 Dashboard Pages
 
 ## 📄 1. Sales Overview Dashboard
